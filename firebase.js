@@ -3,7 +3,7 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCcEB2tZgvwNyMlgKQ_NdE7To3cmX78hBM",
+  apiKey: process.env.firebaseAPIkey,
   authDomain: "react-native-uber-eats-c-f878d.firebaseapp.com",
   projectId: "react-native-uber-eats-c-f878d",
   storageBucket: "react-native-uber-eats-c-f878d.appspot.com",

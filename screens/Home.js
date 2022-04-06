@@ -9,7 +9,7 @@ import { Divider } from "react-native-elements";
 import SafeViewAndroid from "../components/SafeViewAndroid";
 
 const YELP_API_KEY =
-  "yX0k2vE8KYNztgN0j_YbKDhLjPP_QSop8L5ygiixxlOHZS2Y43fJSAxEGWGHDb2xCEJeQLrlYDVbcZI4jlriiUsKTrUWj-afj4g7k806TuoX8NM78jLgjzZC6HdJYnYx";
+  process.env.YELP_API_KEY;
 
 export default function Home({ navigation }) {
   const [city, setCity] = useState("Tampa");
